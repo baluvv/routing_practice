@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-image {
+  width: 30%;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #551e53;
+  font-size: 50px;
+}
+.line {
+  font-family: 'Roboto';
+  color: #555555;
+  font-size: 30px;
+  font-weight: 500;
+}
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 25px;
+  }
+  .line {
+    font-size: 15px;
+  }
+}

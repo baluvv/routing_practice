@@ -1,0 +1,32 @@
+.nav-bar {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+.wave {
+  height: 25px;
+  width: 25px;
+}
+.top-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item {
+  font-family: 'Roboto';
+  color: #12022f;
+  font-weight: 600;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.nav-heading {
+  font-family: 'Roboto';
+  color: #12022f;
+  font-size: 18px;
+  margin-left: 10px;
+}
